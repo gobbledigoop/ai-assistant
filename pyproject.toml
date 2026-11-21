@@ -1,0 +1,17 @@
+[project]
+name = "first-aiproject-ever"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.2.0",
+    "langchain-core>=1.2.5",
+    "langchain-groq>=1.1.2",
+    "langchain-openai>=1.1.6",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.0.5",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.57.0",
+    "sympy>=1.14.0",
+]
